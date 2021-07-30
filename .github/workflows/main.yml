@@ -50,10 +50,10 @@ jobs:
 
       run: sc start ngrok
 
-    - name: Connect to your RDP 4core-8GB Ram.
+    - name: Connect to your RDP 2core-7GB Ram.
 
       run: cmd /c NGROK-CHECK.bat
 
-    - name: All Done! You can close Tab now! Maximum VM time:7h.
+    - name: All Done! You can close Tab now! Maximum VM time:6h.
 
       run: cmd /c loop.bat
